@@ -7,16 +7,16 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1440 height=900 style="width: 1440px; height: 900px; background: #22224F"></canvas>
-    <script src="Build/1.1.loader.js"></script>
+    <script src="Build/1.2.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/1.1.data",
-        frameworkUrl: "Build/1.1.framework.js",
-        codeUrl: "Build/1.1.wasm",
+        dataUrl: "Build/1.2.data",
+        frameworkUrl: "Build/1.2.framework.js",
+        codeUrl: "Build/1.2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Specially",
         productName: "Specially Directory Demo",
-        productVersion: "1.0",
+        productVersion: "1.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
